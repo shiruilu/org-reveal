@@ -436,7 +436,7 @@ using custom variable `org-reveal-root'."
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = '%scss/print/pdf.css';
+        link.href = './pdf_shrink_title.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
